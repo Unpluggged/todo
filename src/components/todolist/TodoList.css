@@ -1,0 +1,84 @@
+.process_list {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+.complete_task {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    width: auto;
+    margin-bottom: 40px;
+}
+
+
+.todo_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.process_list .todo_item {
+    border: 1px solid black;
+    min-width: 500px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #9E78CF;
+}
+
+.complete_task .todo_item {
+    border: 1px solid black;
+    min-width: 500px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #9E78CF
+}
+
+.complete_task .todo_title {
+    font-size: 24px;
+}
+
+.process_list .todo_title {
+    font-size: 24px;
+}
+
+p {
+    text-align: center;
+    font-size: 36px;
+    color: #9E78CF;
+}
+
+.task_title{
+    text-align: center;
+    color: #9E78CF;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.complete_title {
+    text-align: center;
+    color: #9E78CF;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.newTitle {
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+.complete_task .knop{
+
+}

@@ -1,0 +1,33 @@
+.todo_item button {
+    background: none;
+    border: none;
+}
+
+.todo_item svg {
+    width: 25px;
+    height: 25px;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.todo button {
+    background: none;
+    border: none;
+    position: relative;
+    right: 100px;
+}
+
+.todo svg {
+    width: 50px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-items: center;
+}
